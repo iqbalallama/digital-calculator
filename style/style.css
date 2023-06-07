@@ -1,9 +1,11 @@
+/* body part */
 body{
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* calculator body*/
 .main-body{
     width: 30%;
     display: flex;
@@ -14,17 +16,20 @@ body{
     border: 1px solid coral;
     margin : 150px 0px
 }
+/* display input */
 .inputt{
     width: 80%;
     padding: 10px 0px;
     text-align: right;
     font-size: 35px;
 }
+/* row part */
 .row{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* button  */
 .btn{
     color: white;
     background-color: black;
@@ -40,6 +45,18 @@ body{
     align-items: center;
     cursor: pointer;
 }
+/* operator */
 .operator{
     color: coral;
+}
+/* responsive */
+@media screen and (max-width: 800px) {
+    .main-body{
+        width: 75%;
+    }
+}
+@media screen and (min-width: 900px) {
+    .main-body{
+        width: 35%;
+    }
 }
