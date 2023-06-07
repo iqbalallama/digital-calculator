@@ -50,13 +50,13 @@ body{
     color: coral;
 }
 /* responsive */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 688px) {
     .main-body{
-        width: 75%;
+        width: 80%;
     }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 689px) and (max-width: 1000px) {
     .main-body{
-        width: 35%;
+        width: 45%;
     }
 }
