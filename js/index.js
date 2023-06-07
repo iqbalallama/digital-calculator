@@ -14,7 +14,7 @@ document.getElementById('calculator-body').addEventListener('click',function(e){
             display.value = eval(display.value);
         }
         else if(currentNumber == '%'){
-            display.value = eval(display.value/100);
+            display.value = eval(display.value / 100);
         }
         else{
             display.value = newNumber;
