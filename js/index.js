@@ -13,12 +13,15 @@ document.getElementById('calculator-body').addEventListener('click',function(e){
         else if(currentNumber == '='){
             display.value = eval(display.value);
         }
+        else if(currentNumber == '%'){
+            display.value = eval(display.value/100);
+        }
         else{
             display.value = newNumber;
         }
     }
     else{
-        display.value = newNumber;
+            display.value = newNumber;
     }
     
 })
